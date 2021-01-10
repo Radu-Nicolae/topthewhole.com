@@ -2363,8 +2363,8 @@ h3 {
 
 /* line 7, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_footer.scss */
 .footer .footer_top {
-  padding-top: 116px;
-  padding-bottom: 190px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 @media (max-width: 767px) {
