@@ -76,13 +76,14 @@ h6 a {
 
 /* line 52, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
 ul {
-  margin: 0px;
-  padding: 0px;
+  list-style: disc;
 }
 
 /* line 56, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
 li {
-  list-style: none;
+  margin-bottom: 10px;
+  color: #363940;
+  font-family: libre_franklinregular,Arial,Helvetica,sans-serif;
 }
 
 /* line 59, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
@@ -90,14 +91,14 @@ p {
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
-  color: #7A838B;
+  color: #363940;
   margin-bottom: 13px;
   font-family: "Roboto", sans-serif;
 }
 
 /* line 68, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
 label {
-  color: #7e7e7e;
+  color: #363940;
   cursor: pointer;
   font-size: 14px;
   font-weight: 400;
