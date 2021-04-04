@@ -68,25 +68,25 @@
                                     <a class="active hvr" href="https://topthewhole.com">Home</a>
                                  </li>
                                  <li>
-                                  <a href="blog.html">Articles</a>
+                                  <a href="blog.php">Articles</a>
                                   <ul class="submenu">
                                      <li>
-                                        <a href="exams.html" class="hvr">Exams</a>
+                                        <a href="exams.php" class="hvr">Exams</a>
                                      </li>
                                      <li>
-                                       <a href="travelling.html" class="hvr">Travelling</a>
+                                       <a href="travelling.php" class="hvr">Travelling</a>
                                      </li>
                                      <li>
-                                         <a href="lifestyle.html" class="hvr">Lifestyle</a>
+                                         <a href="lifestyle.php" class="hvr">Lifestyle</a>
                                      </li>
                                      <li>
-                                        <a href="blog.html" class="hvr">All Articles</a>
+                                        <a href="blog.php" class="hvr">All Articles</a>
                                      </li>
                                      
                                   </ul>
                                </li>
                                  <li>
-                                    <a href="about.html" class="hvr">About Us</a>
+                                    <a href="about.php" class="hvr">About Us</a>
                                  </li>
                                  
                               </ul>

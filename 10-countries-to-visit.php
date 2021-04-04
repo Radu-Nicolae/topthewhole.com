@@ -35,76 +35,9 @@
    </head>
    <body>
       
-      <!-- header-start -->
-      <header class="color">
-         <div class="header-area color global-nav-bar">
-            <div id="sticky-header" class="main-header-area color">
-               <div class="container-fluid color">
-                  <div class="row align-items-center color">
-                     <div class="col-xl-3 col-lg-2 color">
-                        <div class="logo color">
-                           <a href="https://topthewhole.com">
-                           <img
-                              src="img/logo.png"
-                              class="logo"
-                              alt=""
-                              />
-                           </a>
-                        </div>
-                     </div>
-                     <style>
-                        .hvr:hover {
-                        text-decoration: underline;
-                        }
-                        .color{
-                        background-color: #02ac0b !important;
-                        }
-
-                        p{
-                           font-size: 120%;
-                        }
-                     </style>
-                     <div class="col-xl-9 col-lg-10">
-                        <div class="main-menu d-none d-lg-block text-right">
-                           <nav>
-                              <ul id="navigation">
-                                 <li>
-                                    <a class="active hvr" href="https://topthewhole.com">Home</a>
-                                 </li>
-                                 <li>
-                                  <a href="blog.html">Articles</a>
-                                  <ul class="submenu">
-                                     <li>
-                                        <a href="exams.html" class="hvr">Exams</a>
-                                     </li>
-                                     <li>
-                                       <a href="travelling.html" class="hvr">Travelling</a>
-                                     </li>
-                                     <li>
-                                         <a href="lifestyle.html" class="hvr">Lifestyle</a>
-                                     </li>
-                                     <li>
-                                        <a href="blog.html" class="hvr">All Articles</a>
-                                     </li>
-                                     
-                                  </ul>
-                               </li>
-                                 <li>
-                                    <a href="about.html" class="hvr">About Us</a>
-                                 </li>
-                                 
-                              </ul>
-                           </nav>
-                        </div>
-                     </div>
-                     <div class="col-12 color">
-                        <div class="mobile_menu d-block d-lg-none"></div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </header>
+      <?php
+         include "components/header.php"
+      ?>  
   
       <!-- bradcam_area  -->
       <div class="bradcam_area bradcam_bg_1 color">
@@ -140,8 +73,8 @@
                   <meta itemprop="dateModified" content="2021-02-16">
                   <span class="byline">  <span class="author vcard"><a class="url fn n" href="https://luanaionica.com/"></a></span> </span>
                   <meta itemprop="author" content="Luana Ionica">
-                  <link id="page-url" itemprop="mainEntityOfPage" href="https://topthewhole.com/10-countries-to-visit.html">
-                  <a href="https://topthewhole.com/10-countries-to-visit.html" rel="category tag"></a>
+                  <link id="page-url" itemprop="mainEntityOfPage" href="https://topthewhole.com/10-countries-to-visit.php">
+                  <a href="https://topthewhole.com/10-countries-to-visit.php" rel="category tag"></a>
                </div>
                <!-- .entry-meta --> <br>
             </header>
@@ -1236,115 +1169,22 @@ If you love travelling, you are in the right place, reading the perfect article 
 
             
             
-       
-       
+               <?php
+                  include "components/topPics.php";
+               ?>
 
-      <aside class="aside35 blog-article-display">
-         <div class="about-wrapper">
-            <h2 class="widget-title">
-            </h2>
-            <p class="about-copy">
-           </p>
-         </div>
 
-         <div>
-            <div class="title-holder">
-               top picks for you
-            </div>
-
-            <div class="also-read">
-               
-               <article-small-index>
-                  <a href="20-netflix-series.html" target="_blank">
-                     <img src="img/articles/series2021/image1.jpg" alt="" class="small-image-index">
-                     <p class="small-image-description">
-                        Top 20 Netflix Series in 2021
-                     </p>
-                  </a>
-                  
-                  
-               </article-small-index>
-
-               <article-small-index>
-                  <a href="37-sat-tips.html" target="_blank">
-                     <img src="img/articles/10-countries/image1.jpg" alt="" class="small-image-index">
-                     <p class="small-image-description">
-                        Top 10 Countries You Must Visit
-                     </p>
-                  </a>
-                  
-                  
-               </article-small-index>
-
-               <article-small-index>
-                  <a href="37-sat-tips.html" target="_blank">
-                     <img src="img/articles/sat/image1.jpeg" alt="" class="small-image-index">
-                     <p class="small-image-description">
-                        Top 37 SAT Tips and Tricks
-                     </p>
-                  </a>  
-               </article-small-index>
-
-                  
-               </div> 
-            </div>
-
-        </aside>
         </div>
 
     </section>
  
 
  
-     <!-- footer start -->
-     <footer class="footer footer-better-looking" style="background-color: #121212 !important; position: absolute; border-top: none !important;">
-        <div>
-        <div class="footer_top">
-           <div class="container-footer clearfix">
-              <div class="clearfix">
-                 <div class="text-container-footer">
-                    <div>
-                       <h1 style="color: #E6E1CC !important">About us</h1>
-                       <p class="text-footer" style="color: #E6E1CC !important">
-                          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda natus facilis distinctio repellat numquam ut excepturi laudantium sequi, quasi voluptatem, dolor velit quam cum labore. Repudiandae similique labore numquam cumque! Nesciunt assumenda dicta reprehenderit cum sed saepe porro et quaerat earum deserunt suscipit quae cumque numquam tenetur, sequi officiis amet.
-                       </p>
-                    </div>
-                    <div class="footer_widget">
-                       <div class="logo_footer">
-                         <a href="https://topthewhole.com" style="z-index: 3 !important;">
-                           <img src="img/logo.png" class="image-footer" alt="">
-                         </a>
-                       </div>
-                     </div>
-  
-                 </div>
-                 
-                 <!-- <img src="img/logo.png" class="image-footer" alt=""> -->
-              </div>
-           </div>
-        </div>
-        <div class="copy-right_text">
-           <div class="container">
-              <div class="row">
-                 <div class="col-xl-12">
-                    <p class="copy_right text-center">
-                       Copyright &copy;
-                       <script>
-                          document.write(new Date().getFullYear());
-                       </script>
-                       All rights reserved | Top The Whole
-                    </p>
-                    <br>
-                    <p class="copy_right text-center">
-                       Website developed by 
-                       <a href="https://radu-nicolae.com" target="_blank" class="developer-name-link">Radu Nicolae</a> with the help of <a href="https://luanaionica.com" target="_blank" class="developer-name-link">Luana Ionica</a>
-                    </p>
-                 </div>
-              </div>
-           </div>
-        </div>
-     </footer>
- <!--/ footer end  -->
+<!-- footer start -->
+      <?php
+         include "components/footer.php";
+      ?>
+      <!--/ footer end  -->
  
  
  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>

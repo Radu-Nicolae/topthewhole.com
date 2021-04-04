@@ -74,16 +74,16 @@
                   <nav>
                     <ul id="navigation">
                       <li><a class="active hvr" href="https://topthewhole.com">Home</a></li>
-                      <li><a href="about.html" class="hvr">Despre noi</a></li>
+                      <li><a href="about.php" class="hvr">Despre noi</a></li>
 
                       <li>
-                        <a href="blog.html">Articole</a>
+                        <a href="blog.php">Articole</a>
                         <ul class="submenu">
                           <li>
-                            <a href="evenimente.html" class="hvr">Evenimente</a>
+                            <a href="evenimente.php" class="hvr">Evenimente</a>
                           </li>
                           <li>
-                            <a href="interviuri.html" class="hvr">Interviuri</a>
+                            <a href="interviuri.php" class="hvr">Interviuri</a>
                             <ul
                               class="submenu"
                               style="
@@ -94,19 +94,19 @@
                               "
                             >
                               <li>
-                                <a href="cnss.html" class="hvr"
+                                <a href="cnss.php" class="hvr"
                                   >CN Sfântul Sava</a
                                 >
                               </li>
                               <li>
-                                <a href="personalitati.html" class="hvr"
+                                <a href="personalitati.php" class="hvr"
                                   >Personalități</a
                                 >
                               </li>
                             </ul>
                           </li>
                           <li>
-                            <a href="literatura.html" class="hvr">Literatură</a>
+                            <a href="literatura.php" class="hvr">Literatură</a>
                             <ul
                               class="submenu"
                               style="
@@ -116,18 +116,18 @@
                               "
                             >
                               <li>
-                                <a href="proza.html" class="hvr">Proză</a>
+                                <a href="proza.php" class="hvr">Proză</a>
                               </li>
                               <li>
-                                <a href="poezie.html" class="hvr">Poezie</a>
+                                <a href="poezie.php" class="hvr">Poezie</a>
                               </li>
                             </ul>
                           </li>
                           <li>
-                            <a href="limbi.html" class="hvr">Limbi străine</a>
+                            <a href="limbi.php" class="hvr">Limbi străine</a>
                           </li>
                           <li>
-                            <a href="critica.html" class="hvr">Critică</a>
+                            <a href="critica.php" class="hvr">Critică</a>
                             <ul
                               class="submenu"
                               style="
@@ -136,40 +136,40 @@
                                 width: 300px;
                               "
                             >
-                              <li><a href="film.html" class="hvr">Film</a></li>
+                              <li><a href="film.php" class="hvr">Film</a></li>
                               <li>
-                                <a href="teatru.html" class="hvr">Teatru</a>
+                                <a href="teatru.php" class="hvr">Teatru</a>
                               </li>
                               <li>
-                                <a href="carti.html" class="hvr">Literatură</a>
+                                <a href="carti.php" class="hvr">Literatură</a>
                               </li>
                             </ul>
                           </li>
                           <li>
-                            <a href="dezvoltare.html" class="hvr">Dezvoltare Personală</a>
+                            <a href="dezvoltare.php" class="hvr">Dezvoltare Personală</a>
                           </li>
                           <li>
-                            <a href="diverse.html" class="hvr">Diverse</a>
+                            <a href="diverse.php" class="hvr">Diverse</a>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="poze.html">Fotografii</a>
+                        <a href="poze.php">Fotografii</a>
                         <ul class="submenu">
                           <li>
-                            <a href="Daniel Lăpădat.html" class="hvr"
+                            <a href="Daniel Lăpădat.php" class="hvr"
                               >Daniel Lăpădat</a
                             >
                           </li>
                           <li>
-                            <a href="Mihnea Lazăr.html" class="hvr"
+                            <a href="Mihnea Lazăr.php" class="hvr"
                               >Mihnea Lazăr</a
                             >
                           </li>
                         </ul>
                       </li>
 
-                      <li><a href="contact.html" class="hvr">Contact</a></li>
+                      <li><a href="contact.php" class="hvr">Contact</a></li>
                     </ul>
                   </nav>
                 </div>
@@ -262,84 +262,10 @@
 
 
     <!-- footer start -->
-    <footer class="footer" style="background-color:black;">
-      <div class="footer_top">
-          <div class="container">
-              <div class="row">
-                  <div class="col-xl-4 col-md-6 col-lg-4">
-                      <div class="footer_widget">
-                         <div class="logo_footer">
-                             <a href="https://topthewhole.com">
-                              <img src="cavalogo.jpg" style="width: 300px; height:200px;" alt="">                                   </a>
-                            </div>
-
-                      </div>
-                  </div>
-                  <div class="col-xl-3 col-md-6 col-lg-3">
-                      <div class="footer_widget">
-                          <h3 class="footer_title">
-                                  
-                          </h3>
-                          <ul>
-                              <li><a href="#"></a></li>
-                              <li><a href="#"></a></li>
-                              <li><a href="#"></a></li>
-                          </ul>
-
-                      </div>
-                  </div>
-                  <div class="col-xl-3 col-md-6 col-lg-3">
-                      <div class="footer_widget">
-                          <h3 class="footer_title">
-                              Useful Links
-                          </h3>
-                          <ul>
-                              <li><a href="#">Home</a></li>
-                              <li><a href="about.html">Despre noi</a></li>
-                              <li><a href="blog.html">Articole</a></li>
-<li><a href="poze.html">Fotografii</a></li>
-                              <li><a href="contact.html">Contact</a></li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="col-xl-2 col-md-6 col-lg-2">
-                      <div class="footer_widget">
-                          <h3 class="footer_title">
-                                  Follow Us
-                          </h3>
-                          <ul>
-                              <li><a href="https://www.instagram.com/revistasava/">Instagram</a></li>
-                              <li><a href="#">Facebook</a></li>
-                          </ul>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <div class="copy-right_text">
-          <div class="container">
-              <div class="row">
-                  <div class="col-xl-12">
-                  <p class="copy_right text-center">
-                Copyright &copy;
-                <script>
-                  document.write(new Date().getFullYear());
-                </script>
-                All rights reserved | Revista CaVa
-              </p>
-              <br>
-              <p class="copy_right text-center">
-                Mentainance by Luana Ionica and <a href="https://radu-nicolae.com" target="_blank" class="developer-name-link">Radu Nicolae</a>
-              </p>
-              <p class="copy_right text-center">
-                Website mainly developed by <a href="https://radu-nicolae.com" target="_blank" class="developer-name-link">Radu Nicolae</a> with the help of Bogdan Mihai
-              </p>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </footer>
-<!--/ footer end  -->
+      <?php
+         include "components/footer.php";
+      ?>
+      <!--/ footer end  -->
 
   <!-- JS here -->
   <script src="js/vendor/modernizr-3.5.0.min.js"></script>
