@@ -54,32 +54,18 @@
               <div class="col-lg-8 mb-5 mb-lg-0">
                  <div class="blog_left_sidebar">
 
+                 <?php
+                     $file = "20-netflix-series.php";
+                     $imageSource = "img/articles/series2021/image1.jpg";
+                     $day = "20";
+                     $month = "Feb";
+                     $title = "Top 20 Netflix Series in 2021";
+                     $description = "There are so many good shows on Netflix that sometimes it is hard to choose what to watch. Fortunately for you, we have composed a list of the best Netflix series you can possibly watch in 2021. Let’s dive in!";
+                     $category = "Lifestyle";
 
-                  <article class="blog_item">
-                     <div class="blog_item_img">
-                        <a href="20-netflix-series.php">
-                        <img class="card-img rounded-0" src="img/articles/series2021/image1.jpg" alt="">
-                        </a>
-                        <a href="20-netflix-series.php" class="blog_item_date">
-                           <h3>20</h3>
-                           <p>Feb</p>
-                        </a>
-                     </div>
-                     <div class="blog_details">
-                        <a class="d-inline-block" href="20-netflix-series.php">
-                           <h2>Top 20 Netflix Series in 2021</h2>
-                        </a>
-                        <a href="20-netflix-series.php">
-                            <p>
-                              There are so many good shows on Netflix that sometimes it is hard to choose what to watch. Fortunately for you, we have composed a list of the best Netflix series you can possibly watch in 2021. Let’s dive in!
-                            </p>
-                        </a>
-                        
-                        <ul class="blog-info-link">
-                           <li><a href="lifestyle.php"><i class="fa fa-user"></i>Lifestyle</a></li>
-                        </ul>
-                     </div>
-                  </article>
+                     include "components/blogArticle.php";
+
+                 ?>
 
 
                   <article class="blog_item">

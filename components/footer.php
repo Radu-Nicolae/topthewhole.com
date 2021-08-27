@@ -24,6 +24,18 @@
                 </div>
             </div>
         </div>
+        
+        <div>
+            <form method="post">
+                <input type="text" name="email" placeholder="your@mail.com"> <br>
+                <input type="submit">
+            </form>
+
+            <?php
+                include "newsletter.php";
+            ?>
+        </div>
+        
         <div class="copy-right_text">
             <div class="container">
                 <div class="row">
